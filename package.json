@@ -2,14 +2,20 @@
   "name": "nextjs-issue-finder",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Cory Kelley",
+    "email": "coryk0789@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@theme-ui/presets": "^0.3.0",
     "next": "10.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "theme-ui": "^0.3.3"
   }
 }
