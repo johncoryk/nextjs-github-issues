@@ -1,12 +1,12 @@
-import { ThemeProvider } from 'theme-ui';
-import theme from '../styles/theme';
-import '../styles/globals.css';
+import Layout from '../components/Layout';
+import GlobalStyles from '../styles/GlobalStyles';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={theme}>
+    <Layout>
+      <GlobalStyles />
       <Component {...pageProps} />
-    </ThemeProvider>
+    </Layout>
   );
 }
 
