@@ -2,22 +2,21 @@
   "name": "nextjs-issue-finder",
   "version": "0.1.0",
   "private": true,
-  "author": {
-    "name": "Cory Kelley",
-    "email": "coryk0789@gmail.com"
-  },
+  "author": "Cory Kelley <coryk0789@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
     "next": "10.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "styled-components": "^5.2.1"
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.11.1"
+    "@emotion/babel-preset-css-prop": "^11.0.0"
   }
 }
