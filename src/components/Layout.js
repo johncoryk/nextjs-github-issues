@@ -1,6 +1,13 @@
+import { css } from '@emotion/react';
+
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div
+      css={{
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
       <header>
         <h3>Github Issues</h3>
         <nav>
