@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-issue-finder",
+  "name": "nextjs-podcast-finder",
   "version": "0.1.0",
   "private": true,
   "author": "Cory Kelley <coryk0789@gmail.com>",
@@ -17,6 +17,9 @@
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "@emotion/babel-preset-css-prop": "^11.0.0"
+    "@emotion/babel-preset-css-prop": "^11.0.0",
+    "eslint": "^7.13.0",
+    "eslint-config-get-off-my-lawn": "^5.0.1",
+    "prettier": "^2.1.2"
   }
 }

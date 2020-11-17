@@ -1,10 +1,11 @@
-import Layout from '../components/Layout';
 import { ThemeProvider } from '@emotion/react';
+
+import Layout from '../components/Layout';
 import theme from '../styles/theme';
 
 import '../styles/reset.css';
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
@@ -12,6 +13,6 @@ function MyApp({ Component, pageProps }) {
       </Layout>
     </ThemeProvider>
   );
-}
+};
 
 export default MyApp;

@@ -1,9 +1,11 @@
-import Search from '../components/Search';
+import Card from '../components/Card';
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <Search />
+      <Card />
     </div>
   );
-}
+};
+
+export default Home;
